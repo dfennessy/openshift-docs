@@ -15,9 +15,6 @@ You can use these examples to configure requests to your services using the 3sca
 * A working 3scale account (link:https://www.3scale.net/signup/[SaaS] or link:https://access.redhat.com/documentation/en-us/red_hat_3scale_api_management/2.5/html/installing_3scale/onpremises-installation[3scale 2.5 On-Premises])
 * Enabling backend cache requires 3scale 2.9 or greater
 * {ProductName} prerequisites
-* Ensure Mixer policy enforcement is enabled. Update Mixer policy enforcement section provides instructions to check the current Mixer policy enforcement status and enable policy enforcement.
-
-IMPORTANT: When you want to enable 3scale backend cache with the 3scale Istio adapter, you must also enable mixer policy and mixer telemetry. See xref:../../service_mesh/v2x/installing-ossm.adoc#ossm-control-plane-deploy_installing-ossm[Deploying the Red Hat OpenShift Service Mesh control plane].
 
 [NOTE]
 ====
